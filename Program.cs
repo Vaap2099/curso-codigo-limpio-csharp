@@ -89,6 +89,7 @@ namespace ToDo
             }
             catch (Exception)
             {
+                System.Console.WriteLine("Ha ocurrido un error al ingresar la tarea");
             }
         }
 
